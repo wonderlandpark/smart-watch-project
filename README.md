@@ -8,3 +8,11 @@
 
 ## 라이선스
 저작권은 저뿐만이 아닌 모든 팀원에게 있습니다.
+`install.sh` - https://github.com/MichMich/MagicMirror/blob/master/installers/raspberry.sh
+
+## 설치
+```
+# For Raspi
+git clone https://github.com/wonderlandpark/smart-watch-project-web MM
+./install.sh
+```
