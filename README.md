@@ -13,9 +13,10 @@
 
 `install.sh` - https://github.com/MichMich/MagicMirror/blob/master/installers/raspberry.sh
 
+> Only for LINUX
+
 ## 설치
 ```bash
-# For Raspi
 git clone https://github.com/wonderlandpark/smart-watch-project-web MM
 cd MM
 bash install.sh
