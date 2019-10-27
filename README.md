@@ -8,6 +8,9 @@
 
 ## 라이선스
 저작권은 저뿐만이 아닌 모든 팀원에게 있습니다.
+> 웹은 제가 만들었고요
+
+
 `install.sh` - https://github.com/MichMich/MagicMirror/blob/master/installers/raspberry.sh
 
 ## 설치
