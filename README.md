@@ -17,5 +17,6 @@
 ```
 # For Raspi
 git clone https://github.com/wonderlandpark/smart-watch-project-web MM
-./install.sh
+cd MM
+bash -c install.sh
 ```
