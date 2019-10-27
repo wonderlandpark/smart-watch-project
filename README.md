@@ -20,3 +20,14 @@ git clone https://github.com/wonderlandpark/smart-watch-project-web MM
 cd MM
 bash install.sh
 ```
+
+## 실행
+```bash
+npm start
+```
+
+### 오류 발생시
+```bash
+rm -rf .
+```
+> 그리고 재설치하세요.
