@@ -14,21 +14,37 @@
 `install.sh` - https://github.com/MichMich/MagicMirror/blob/master/installers/raspberry.sh
 
 > Only for LINUX
+> + 라즈비안은 Electron 이슈 때문에 안됨.(작성일 기준)
 
 ## 설치
 ```bash
 git clone https://github.com/wonderlandpark/smart-watch-project-web MM
 cd MM
 bash install.sh
+cd ~/MagicMirror
+cd modules
+git clone https://github.com/eouia/MMM-AssistantMk2
+sudo apt-get install libasound2-dev sox libsox-fmt-all
+cd MMM-AssistantMk2
+npm install
+npm install --save-dev electron-rebuild
+./node_modules/.bin/electron-rebuild
+cd ~/MagicMirror/modules
+git clone https://github.com/eouia/MMM-Hotword.git
+cd MMM-Hotword
+
+chmod +x ./installer/install.sh
+./installer/install.sh
 ```
 
 ## 실행
 ```bash
+cd ~/MagicMirror
 npm start
 ```
 
 ### 오류 발생시
 ```bash
-rm -rf .
+rm -rf ~/MagicMirror
 ```
 > 그리고 재설치하세요.
