@@ -24,7 +24,7 @@ bash install.sh
 cd ~/MagicMirror
 cd modules
 git clone https://github.com/eouia/MMM-AssistantMk2
-sudo apt-get install libasound2-dev sox libsox-fmt-all
+sudo apt-get install libasound2-dev sox libsox-fmt-all mpg321 -y
 cd MMM-AssistantMk2
 npm install
 npm install --save-dev electron-rebuild
@@ -32,9 +32,9 @@ npm install --save-dev electron-rebuild
 cd ~/MagicMirror/modules
 git clone https://github.com/eouia/MMM-Hotword.git
 cd MMM-Hotword
-
 chmod +x ./installer/install.sh
 ./installer/install.sh
+cd ~/MagicMirror && npm start
 ```
 
 ## 실행
