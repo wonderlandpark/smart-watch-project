@@ -14,7 +14,7 @@
 `install.sh` - https://github.com/MichMich/MagicMirror/blob/master/installers/raspberry.sh
 
 > Only for LINUX
-> + 라즈비안은 Electron 이슈 때문에 안됨.(작성일 기준)
+> ~~+ 라즈비안은 Electron 이슈 때문에 안됨.(작성일 기준)~~ (arch=armv7l로 해결가능) [참고](https://github.com/electron/electron/issues/20723)
 
 ## 설치
 ```bash
