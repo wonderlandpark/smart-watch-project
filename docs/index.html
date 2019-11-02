@@ -8,12 +8,12 @@
     <link rel="stylesheet" type="text/css" href="assets/css/gg.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="assets/css/semantic/semantic.min.js"></script>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">  
 </head>
 
 <body>
-    <header class="ui left aligned container">
-        <div class="ui left aligned container">
+    <header>
+       
            <div class="ui menu">
               <div class="header item">
                  스마트워치
@@ -23,9 +23,9 @@
               </a>
              
            </div>
-        </div>
+
      </header>
-     <div class="ui container">
+    
         <br>
         <h1 class="ui header">
            스마트워치
@@ -40,6 +40,11 @@
                <a href="#items">준비물</a>
 
            </li>
+           <li><a href="#install">설치</a></li>
+           <li><a href="#first">사전회의</a></li>
+           <li><a href="#second">1일차</a></li>
+           <li><a href="#third">2일차</a></li>
+
           
         </ul>
         <br><br>
@@ -88,10 +93,13 @@
                                 </div>
                               </div>
                       </div>
+                    
         </section>
 
         <br>
+        
         <section id="items">
+            
             <h1 class="ui header">준비물</h1>
                 <img class="ui middle aligned tiny image" src="assets/images/raspi.jpg">
                 <span>라즈베리파이 3B</span>
@@ -104,11 +112,63 @@
                 <div class="ui divider"></div>
                 <img class="ui middle aligned tiny image" src="assets/images/mic.jpg">
                 <span>USB 2.0 MIC</span>
+
         </section>
+      </div>
         <br>
+        <section id="first">
+
+          <h1 class="ui header">사전회의(19-10-12)</h1>
+
+          <h3 class="ui desc">역할 분담 및 아이디어 회의</h3>
+          <p class="ui desc">김수아-결석</p>
+          <div class="ui medium images">
+          <img class="ui image" src="assets/images/role.jpg">
+          <img class="ui image" src="assets/images/items.jpg">
+          <img class="ui image" src="assets/images/items2.jpg">
+        </div>
         
+        </section>
         
-        
+        <br>
+        <section id="second">
+          <h1 class="ui header">1일차(19-10-19)</h1>
+          <h3 class="ui desc">역할 분담 및 아이디어 회의</h3>
+          <h4>※  주문서에서  라즈베리 파이가 누락 ※</h4>
+          <img class="ui large image" src="assets/images/noraspi">
+          <h4>라즈베리 파이를 포함한 주문서 재작성</h4>
+          <img class="ui big image" src="assets/images/again...jpg">
+          <h4>아이디어 구상 및 간략 스케치 & 역할 분담해서 종이에 작성</h4>
+          <div class="ui big images">
+            <img class="ui medium image" src="assets/images/roles.png">
+            <img class="ui medium image" src="assets/images/scetch.png">
+          </div>
+        </section>
+<br>
+        <section id="third">
+          <h1 class="ui header">2일차(19-10-26)</h1>
+          <h3 class="ui desc">하드웨어 조립 및 코딩</h3>
+          <div class="ui big images">
+          <img class="ui medium image" src="assets/images/thisisraspi.jpg">
+          <img class="ui medium image" src="assets/images/hardcodding.jpg">
+          <h4>OS는 라즈베리파이의 공식 OS인 Raspbian을 사용하였으며 릴리즈 버전은 10입니다.</h4>
+          <h4>베이스 코드는 MIT 라이선스로 라이선싱된, MichMich님의 <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a>을 사용하였습니다.</h4>
+          <h4>다른 모듈로는 음성인식을 위한 <a href="https://github.com/eouia/MMM-Hotword">MMM-Hotword</a>와 Google Assistant 대화를 위한 <a href="https://github.com/eouia/MMM-AssistantMk2">MMM-AssistantMk2</a>를 사용하였습니다.</h4>
+          
+          </section>
+        </div>
 </body>
 
 </html>
+
+<style>
+  body{
+    margin-left: 20px;
+  }
+  @media screen and (min-width: 800px) {
+    body {
+  margin-left: 100px !important
+}
+}
+
+</style>
