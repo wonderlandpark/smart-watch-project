@@ -44,7 +44,9 @@
            <li><a href="#first">사전회의</a></li>
            <li><a href="#second">1일차</a></li>
            <li><a href="#third">2일차</a></li>
-
+           <li><a href="#tried">다른 시도들</a></li>
+           <li><a href="#howto">작동 원리</a></li>
+           <li><a href="#code">소스코드</a></li>
           
         </ul>
         <br><br>
@@ -143,20 +145,44 @@
             <img class="ui medium image" src="assets/images/roles.png">
             <img class="ui medium image" src="assets/images/scetch.png">
           </div>
-        </section>
-<br>
+        </section>  
+        <br>
         <section id="third">
           <h1 class="ui header">2일차(19-10-26)</h1>
           <h3 class="ui desc">하드웨어 조립 및 코딩</h3>
           <div class="ui big images">
           <img class="ui medium image" src="assets/images/thisisraspi.jpg">
           <img class="ui medium image" src="assets/images/hardcodding.jpg">
-          <h4>OS는 라즈베리파이의 공식 OS인 Raspbian을 사용하였으며 릴리즈 버전은 10입니다.</h4>
-          <h4>베이스 코드는 MIT 라이선스로 라이선싱된, MichMich님의 <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a>을 사용하였습니다.</h4>
-          <h4>다른 모듈로는 음성인식을 위한 <a href="https://github.com/eouia/MMM-Hotword">MMM-Hotword</a>와 Google Assistant 대화를 위한 <a href="https://github.com/eouia/MMM-AssistantMk2">MMM-AssistantMk2</a>를 사용하였습니다.</h4>
+          
+          
           
           </section>
+        <br>
+          <section id="tried">
+            <h1 class="ui header">다른 시도들</h1>
+            <h3 class="ui header">구글 어시스턴트</h3>
+            <h5>구글 어시스턴트를 이용하려고 했지만 라즈비안에서 arecord 모듈의 이슈가 있어서 실패했다.<br>Ubuntu Mate OS에서는 잘 작동했지만 LCD 스크린을 지원하는 라즈비안으로 OS를 변경하였더니, 마이크가 작동하지 않았다.</h5>
+
+          </section>
+          <br> 
+          <section id="howto">
+            <h1 class="ui header">작동원리</h1>
+            <h4>OS는 라즈베리파이의 공식 OS인 Raspbian을 사용하였으며 릴리즈 버전은 10입니다.</h4>
+            <h4>베이스 코드는 MIT 라이선스로 라이선싱된, MichMich님의 <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a>을 사용하였습니다.</h4>
+            <h4>코드는 Node.js로 제작되었으며, 버전은 "v.10.17"입니다.</h4>
+            <h4>원래 모듈은 스마트 미러에 이용하는 모듈이라서 텍스트 폰트 크기가 맞지 않아 css 파일을 수정하였습니다.</h4>
+          </section>
+          <br>
+          <section id="code">
+            <h1 class="ui header">소스코드</h1>
+            <h4>이 프로젝트는 <i class="icon red heart"></i>로 제작되었습니다. 모든 소스코드를 공개합니다.</h4>
+            <h4>코드는 <a href="https://github.com/wonderlandpark/smart-watch-project">Github</a>에서 확인하실 수 있습니다.</h4>
+            <h4>쉽게 설치할 수 있도록 필요한 모든 모듈과 파일을 파일 하나 실행하시면 설치 할 수 있도록 만들었습니다. Linux 기준으로 깃허브를 클론하신 후 <div class="ui pointing label">
+              bash installation.sh
+            </div> 명령어를 실행하시면 됩니다.</h4>
+          </section>
         </div>
+        <br><br><br>
 </body>
 
 </html>
