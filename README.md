@@ -1,5 +1,7 @@
 # smart-watch-project-web
 
+https://wonderlandpark.github.io/smart-watch-project/
+
 영재원에서 만드는 스마트 워치 프로젝트 포토폴리오입니다.
 라즈베리파이를 이용해 스마트 미러 라이브러리인 [MagicMirror2](https://github.com/MichMich/MagicMirror)로 스마트워치 구글 어시스턴트를 구현하였습니다.
 
